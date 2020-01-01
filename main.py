@@ -1,5 +1,5 @@
 import instabot
-from PIL import Image
+from PIL import Image, ImageDraw
 from io import BytesIO
 import os
 import requests
@@ -28,6 +28,12 @@ def main():
     filename = 'test.jpg'
 
     downloadImage(url, filename)
+
+    img = Image.new("RGB", (300, 300), "blue")
+    draw = ImageDraw.Draw(img)
+    draw.text((0, 0), "hogehoge")
+    img.save("./test2.jpg")
+    
     bot.upload_photo(filename)
 
 if __name__ == '__main__':
