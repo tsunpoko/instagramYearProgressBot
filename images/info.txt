@@ -1,0 +1,14 @@
+
+Hope you enjoy your new logo, here are the people that
+made your beautiful logo happen :)
+font name: Ubuntu-L
+font link: https://fonts.google.com/specimen/Ubuntu
+font author: Dalton Maag
+font author site: http://www.daltonmaag.com/
+
+
+icon designer: Rohith M S
+icon designer link: /rohithdezinr
+        
+{"bg":"#8F56FF","icon":"#00E2D9","font":"#FFFFFF","slogan":"#ffffff"}
+      
