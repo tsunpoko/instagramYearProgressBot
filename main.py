@@ -24,17 +24,10 @@ def downloadImage(url, output_filename):
             f.write(r.content)
 
 def main():
-    url = "https://user-images.githubusercontent.com/5179467/57978324-23e4b000-7a46-11e9-8b04-4d16e97a702c.jpg"
-    filename = 'test.jpg'
-
-    downloadImage(url, filename)
-
-    img = Image.new("RGB", (300, 300), "blue")
-    draw = ImageDraw.Draw(img)
-    draw.text((0, 0), "hogehoge")
-    img.save("./test2.jpg")
-    
-    bot.upload_photo(filename)
+    for i in reversed(range(3)):
+        filename = 'data_' + str(i) + '.jpg'
+        #filename = 'test' + str(i) + '.jpg'
+        bot.upload_photo(filename)
 
 if __name__ == '__main__':
     print("[+] initialized.")
