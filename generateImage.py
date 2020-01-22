@@ -32,7 +32,7 @@ def main():
                 past_days += current_days
 
 
-    #past_days = 16
+    #past_days = 20
     percent = past_days / all_days
     percent_str = '{:.1f}'.format( percent * 100)
 

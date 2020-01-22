@@ -92,6 +92,17 @@ def likeWithHashtag(hashtag="fuck"):
     print("[ " + Color.YELLOW + "+" + Color.END + " ] likeWithHashtag() is finished\n")
     time.sleep(3)
 
+    element_button_close = driver.find_element_by_xpath("/html/body/div[4]/button[1]")
+    element_button_close.click()
+
+    time.sleep(3)
+    element_button_follow = driver.find_element_by_xpath("/html/body/div[4]/div[2]/div/article/header/div[2]/div[1]/div[2]/button")
+    t = element_button_follow.text
+    print(t)
+    
+def followWIthHashtag(hashtag="fuck"):
+    pass
+
 def main():
     login()
     deletePopup()
