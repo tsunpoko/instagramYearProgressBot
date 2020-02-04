@@ -1,5 +1,7 @@
 # instagramYearProgressBot
 
+@yearp_gram
+
 ## features
  - like
  - follow
