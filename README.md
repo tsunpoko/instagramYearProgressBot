@@ -1,13 +1,14 @@
 # instagramYearProgressBot
 
-## TODO
- - year progress画像の生成
- - フリーの画像収集 ex.) https://unsplash.com/
- - year progress画像とフリー画像の重ね合わせ
- - 画像のレイアウト・分割するアルゴリズムの実装
- - 定期的に画像をポスト
- - 自動like
- - 自動follow / followback
+## features
+ - like
+ - follow
+ - post images three times as one set
+ 
+## todo
+ - to collect images without copyright ex.) https://unsplash.com/
+ - superimpose images (year progress images and free copyright images)
+ - make algorithm for dividing and superimpositions
 
 ## tools
  - https://iconmonstr.com/shape-15-png/
